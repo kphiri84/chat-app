@@ -6,9 +6,9 @@ const online = true
 const Contact = () => 
 <div className="Contact">
 <img src='https://randomuser.me/api/portraits/men/50.jpg' class="avatar" alt=""/>
-<div>
-<p className="name">Marshall Morales</p>
-<p className="status"> <span class="status-online"></span>{online === true? 'online':'offline'}</p>
+<div className="status">
+<h4 className="name">Marshall Morales</h4>
+<p className="status-text"> <span class="status-online"></span>{online === true? 'online':'offline'}</p>
 </div> 
 </div>
 
