@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
    
 const Contact = props => (
 <div className="Contact">
-<img src= {props.avatar} class="avatar" alt=""/>
+<img src= {props.avatar} className="avatar" alt=""/>
 <div className="status">
 <h4 className="name">{props.name}</h4>
 <p className="status-text"> <span className={props.online ? 'status-online' : 'status-offline'}></span>{props.online === true? 'online':'offline'}</p>
