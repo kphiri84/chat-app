@@ -33,7 +33,7 @@ const users = [
    (
   <div>
     { users.map(user => 
-    <Contact name={user.name} image={user.avatar} online={user.online} />
+    <Contact name={user.name} avatar={user.avatar} online={user.online} />
     )}
   </div>
   )
