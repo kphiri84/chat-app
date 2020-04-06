@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
    
 const Contact = props => (
 <div className="Contact">
-<img src= {props.avatar} className="avatar" alt=""/>
-<div className="status">
-<h4 className="name">{props.name}</h4>
-<p className="status-text"> <span className={props.online ? 'status-online' : 'status-offline'}></span>{props.online === true? 'online':'offline'}</p>
-</div> 
+  <img src= {props.avatar} className="avatar" alt="avatar"/>
+  <div className="status">
+    <h4 className="name">{props.name}</h4>
+    <p className="status-text"> <span className={props.online ? 'status-online' : 'status-offline'}></span>{props.online === true? 'online':'offline'}</p>
+  </div> 
 </div>
 )
 
